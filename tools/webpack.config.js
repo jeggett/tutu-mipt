@@ -63,7 +63,8 @@ const config = {
         include: [
           path.resolve(__dirname, '../components'),
           path.resolve(__dirname, '../core'),
-          path.resolve(__dirname, '../routes'),
+          path.resolve(__dirname, '../dispatcher'),
+          path.resolve(__dirname, '../stores'),
         ],
         loader: 'babel-loader',
         query: extend({}, pkg.babel, { babelrc: false }),
